@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mochiy {
+    font-family: "Mochiy Pop One", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.main-text:hover + .extra-text {
+  display: block;
+}
+
+.extra-text {
+  display: none;
+}
+  
